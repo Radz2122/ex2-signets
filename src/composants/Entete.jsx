@@ -7,7 +7,7 @@ export default function Entete() {
   return (
     <header className="Entete">
       <div className="logo">Signets</div> 
-      <div className="avatar">Camille Semaan <Avatar style={{marginLeft:20, marginRight:10}}><img src={avatar} alt="Camille Semaan" /></Avatar></div>
+      <div className="avatar"> Prenom, Nom <Avatar style={{marginLeft:20, marginRight:10}}><img src={avatar} alt="Camille Semaan" /></Avatar></div>
     </header>
   );
 }
